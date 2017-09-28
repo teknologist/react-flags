@@ -1,6 +1,6 @@
 {
   "name": "react-flags",
-  "version": "0.1.12",
+  "version": "0.1.12-1",
   "description": "Flags of the world",
   "repository": {
     "type": "git",
@@ -17,20 +17,8 @@
     "lib": "lib/",
     "vendor": "vendor/"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "CHANGELOG.md",
-    "lib",
-    "vendor"
-  ],
-  "keywords": [
-    "react",
-    "ecosystem-react",
-    "react-component",
-    "flags",
-    "flag"
-  ],
+  "files": ["LICENSE", "README.md", "CHANGELOG.md", "lib", "vendor"],
+  "keywords": ["react", "ecosystem-react", "react-component", "flags", "flag"],
   "author": "Maxime Poulin <mpoulin@roux.ca>",
   "license": "MIT",
   "peerDependencies": {
@@ -50,5 +38,8 @@
     "lodash": "^3.10.0",
     "webpack": "^1.9.10",
     "world-countries": "^1.7.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
